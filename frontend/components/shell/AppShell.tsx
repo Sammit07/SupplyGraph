@@ -39,9 +39,11 @@ export function AppShell({ children }: { children: ReactNode }) {
   const pathname = usePathname();
   const [mobileNav, setMobileNav] = useState(false);
   const analyst = useAnalyst();
-  const { data: meta } = useMeta();
+  // The login page must not call the API: a 401 there would redirect to itself.
+  const isLogin = pathname === "/login";
+  const { data: meta } = useMeta(!isLogin);
 
-  if (pathname === "/login") return <>{children}</>;
+  if (isLogin) return <>{children}</>;
 
   const nav = (
     <nav className="flex flex-col gap-0.5">

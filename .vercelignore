@@ -1,8 +1,12 @@
+# Local-only files: never upload these with `vercel deploy`
 .venv
+**/node_modules
+**/.next
 **/__pycache__
 **/.pytest_cache
 **/.ruff_cache
+**/*.egg-info
+**/.env
+**/.env*.local
 backend/tests
 assets
-backend/.env
-frontend/.env*.local

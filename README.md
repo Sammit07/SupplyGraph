@@ -2,7 +2,7 @@
 
 **Supply-chain risk intelligence on a FalkorDB knowledge graph.**
 
-🔗 **Live demo:** _coming soon
+🔗 **Live demo:** [supplygraph-nu.vercel.app](https://supplygraph-nu.vercel.app) (password protected; ask the author for access)
 
 ---
 
@@ -144,7 +144,7 @@ RETURN node.text AS text, doc.filename AS document,
 
 ### 🌐 Live app
 
-🔗 _The live app link will be added here once it is deployed to Vercel._
+🔗 **[https://supplygraph-nu.vercel.app](https://supplygraph-nu.vercel.app)**, hosted on Vercel. The app is password protected; ask the author for access. Pick the `demo` workspace to explore the sample network, PDFs and live disruptions.
 
 ### ✅ Prerequisites
 

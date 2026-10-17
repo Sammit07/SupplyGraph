@@ -4,8 +4,8 @@ import useSWR from "swr";
 
 import type { Meta, Overview } from "./types";
 
-export function useMeta() {
-  return useSWR<Meta>("/v1/meta", { dedupingInterval: 30_000 });
+export function useMeta(enabled = true) {
+  return useSWR<Meta>(enabled ? "/v1/meta" : null, { dedupingInterval: 30_000 });
 }
 
 export function useOverview() {
