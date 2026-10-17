@@ -1,0 +1,13 @@
+event_id,title,category,severity,start_date,expected_end_date,status,affected_ids
+DIS-2026-TYPHOON-KHH,Typhoon Haikui port closure (Kaohsiung),weather,4,2026-10-12,2026-11-05,ACTIVE,PORT-KHH;REG-TW-S
+DIS-2026-KATANGA-EXPORT,Katanga cobalt export licence suspension,geopolitical,3,2026-09-01,2027-01-31,ACTIVE,REG-CD-KAT
+DIS-2026-BLACKSEA,Black Sea commercial shipping restrictions,geopolitical,4,2026-08-20,2026-12-31,ACTIVE,PORT-ODESA
+DIS-2025-RTM-STRIKE,Rotterdam dockworker strike,labor,2,2025-03-01,2025-03-20,RESOLVED,PORT-RTM
+DIS-2026-COAHUILA-GRID,Coahuila grid curtailment during heatwave,operational,2,2026-10-05,2026-10-25,ACTIVE,REG-MX-COA
+DIS-2026-LUALABA-ROAD,Lualaba mining corridor blockade,geopolitical,3,2026-10-09,,ACTIVE,REG-CD-LU
+DIS-2025-TX-FREEZE,Texas winter storm grid failure,weather,4,2025-02-14,2025-02-24,RESOLVED,REG-US-TX
+DIS-2025-ANTWERP-STRIKE,Antwerp port labour strike,labor,2,2025-06-10,2025-06-18,RESOLVED,PORT-ANTWERP
+DIS-2025-GUJARAT-CYCLONE,Cyclone landfall in Gujarat,weather,3,2025-06-12,2025-06-30,RESOLVED,REG-IN-GJ;PORT-MUNDRA
+DIS-2026-PENANG-POWER,Penang grid outage,operational,2,2026-03-02,2026-03-05,RESOLVED,REG-MY-PEN
+DIS-2026-SHANGHAI-CONGESTION,Shanghai port congestion,logistics,2,2026-07-01,2026-08-15,RESOLVED,PORT-SHA
+DIS-2026-SICHUAN-POWER,Sichuan hydropower rationing,operational,3,2026-08-10,2026-09-20,RESOLVED,REG-CN-SC

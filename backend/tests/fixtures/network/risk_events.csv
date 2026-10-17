@@ -1,0 +1,5 @@
+event_id,title,category,severity,start_date,expected_end_date,status,affected_ids
+DIS-2026-TYPHOON-KHH,Typhoon Haikui port closure (Kaohsiung),weather,4,2026-10-12,2026-11-05,ACTIVE,PORT-KHH;REG-TW-S
+DIS-2026-KATANGA-EXPORT,Katanga cobalt export licence suspension,geopolitical,3,2026-09-01,2027-01-31,ACTIVE,REG-CD-KAT
+DIS-2026-BLACKSEA,Black Sea commercial shipping restrictions,geopolitical,4,2026-08-20,2026-12-31,ACTIVE,PORT-ODESA
+DIS-2025-RTM-STRIKE,Rotterdam dockworker strike,labor,2,2025-03-01,2025-03-20,RESOLVED,PORT-RTM

@@ -1,0 +1,7 @@
+customer_id,customer_name,segment
+CUS-DEALER-NA,Voltra Dealer Network North America,retail
+CUS-DEALER-EU,Voltra Dealer Network Europe,retail
+CUS-FLEET,Northwind Fleet Leasing,fleet
+CUS-RIDE,Metro Rideshare Co.,fleet
+CUS-UTIL,Cascade Utilities,energy
+CUS-SERVICE,Voltra Service Centers,aftermarket

@@ -1,0 +1,12 @@
+# Runtime dependencies for the FastAPI backend (kept in sync with pyproject.toml).
+# Install: pip install -r backend/requirements.txt
+falkordb==1.8.0
+openai==3.31.0
+mcp==2.3.0
+fastapi==0.143.3
+uvicorn==0.54.0
+pydantic==2.14.1
+pydantic-settings==2.16.0
+python-multipart==0.0.32
+python-dotenv==1.2.4
+pypdf==6.21.0

@@ -1,0 +1,51 @@
+location_id,location_type,name,country_code,parent_location_id
+REG-KR-GB,REGION,Gyeongsangbuk-do,KR,
+REG-KR-GN,REGION,Gyeongsangnam-do,KR,
+REG-CN-JS,REGION,Jiangsu,CN,
+REG-CN-SH,REGION,Shanghai,CN,
+REG-CN-GD,REGION,Guangdong,CN,
+REG-CN-IM,REGION,Inner Mongolia,CN,
+REG-CN-ZJ,REGION,Zhejiang,CN,
+REG-CN-TJ,REGION,Tianjin,CN,
+REG-CL-AN,REGION,Antofagasta,CL,
+REG-AU-WA,REGION,Western Australia,AU,
+REG-CD-KAT,REGION,Katanga,CD,
+REG-TZ-DAR,REGION,Dar es Salaam Region,TZ,
+REG-ID-SUL,REGION,Sulawesi,ID,
+REG-FI-OST,REGION,Ostrobothnia,FI,
+REG-JP-KYU,REGION,Kyushu,JP,
+REG-TW-S,REGION,Southern Taiwan,TW,
+REG-TW-N,REGION,Northern Taiwan,TW,
+REG-MY-PEN,REGION,Penang,MY,
+REG-DE-BY,REGION,Bavaria,DE,
+REG-DE-SN,REGION,Saxony,DE,
+REG-DE-HH,REGION,Hamburg,DE,
+REG-UA-OD,REGION,Odesa Oblast,UA,
+REG-NL-ZH,REGION,South Holland,NL,
+REG-MX-NL,REGION,Nuevo Leon,MX,
+REG-MX-GTO,REGION,Guanajuato,MX,
+REG-TH-E,REGION,Eastern Thailand,TH,
+REG-US-MI,REGION,Michigan,US,
+REG-US-TX,REGION,Texas,US,
+REG-US-CA,REGION,California,US,
+REG-US-NC,REGION,North Carolina,US,
+REG-US-OH,REGION,Ohio,US,
+PORT-BUSAN,PORT,Port of Busan,KR,REG-KR-GN
+PORT-SHA,PORT,Port of Shanghai,CN,REG-CN-SH
+PORT-YANTIAN,PORT,Yantian Port,CN,REG-CN-GD
+PORT-TIANJIN,PORT,Port of Tianjin,CN,REG-CN-TJ
+PORT-NINGBO,PORT,Port of Ningbo-Zhoushan,CN,REG-CN-ZJ
+PORT-ANF,PORT,Port of Antofagasta,CL,REG-CL-AN
+PORT-HEDLAND,PORT,Port Hedland,AU,REG-AU-WA
+PORT-DAR,PORT,Port of Dar es Salaam,TZ,REG-TZ-DAR
+PORT-MAKASSAR,PORT,Port of Makassar,ID,REG-ID-SUL
+PORT-KOKKOLA,PORT,Port of Kokkola,FI,REG-FI-OST
+PORT-HAKATA,PORT,Port of Hakata,JP,REG-JP-KYU
+PORT-KHH,PORT,Port of Kaohsiung,TW,REG-TW-S
+PORT-KEELUNG,PORT,Port of Keelung,TW,REG-TW-N
+PORT-PENANG,PORT,Penang Port,MY,REG-MY-PEN
+PORT-HAMBURG,PORT,Port of Hamburg,DE,REG-DE-HH
+PORT-ODESA,PORT,Port of Odesa,UA,REG-UA-OD
+PORT-RTM,PORT,Port of Rotterdam,NL,REG-NL-ZH
+PORT-LAREDO,PORT,Laredo Land Crossing,US,REG-US-TX
+PORT-LAEMCHABANG,PORT,Laem Chabang Port,TH,REG-TH-E

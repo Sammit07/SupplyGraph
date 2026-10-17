@@ -1,0 +1,207 @@
+customer_id,customer_name,segment
+CUS-DEALER-NA,Voltra Dealer Network North America,retail
+CUS-DEALER-EU,Voltra Dealer Network Europe,retail
+CUS-FLEET,Northwind Fleet Leasing,fleet
+CUS-RIDE,Metro Rideshare Co.,fleet
+CUS-UTIL,Cascade Utilities,energy
+CUS-SERVICE,Voltra Service Centers,aftermarket
+CUS-0001,Seoul Electric Auto Group,retail
+CUS-0002,Vienna Electric Auto Group,retail
+CUS-0003,Amsterdam EV Center,retail
+CUS-0004,Kuala Lumpur Electric Auto Group,retail
+CUS-0005,Rome Voltra Motors,retail
+CUS-0006,Miami EV Center,retail
+CUS-0007,Toronto EV Center,retail
+CUS-0008,Helsinki Electric Auto Group,retail
+CUS-0009,Lyon Electric Auto Group,retail
+CUS-0010,Zurich EV Center,retail
+CUS-0011,Detroit Voltra Motors,retail
+CUS-0012,Atlanta EV Center,retail
+CUS-0013,Delhi Electric Auto Group,retail
+CUS-0014,Sydney Voltra Motors,retail
+CUS-0015,Milan Electric Auto Group,retail
+CUS-0016,Tel Aviv Voltra Motors,retail
+CUS-0017,Berlin EV Center,retail
+CUS-0018,San Diego EV Center,retail
+CUS-0019,Copenhagen Electric Auto Group,retail
+CUS-0020,Ho Chi Minh City EV Center,retail
+CUS-0021,Prague EV Center,retail
+CUS-0022,London Electric Auto Group,retail
+CUS-0023,Monterrey Voltra Motors,retail
+CUS-0024,Montreal Electric Auto Group,retail
+CUS-0025,Singapore Voltra Motors,retail
+CUS-0026,Stockholm Electric Auto Group,retail
+CUS-0027,Riyadh Voltra Motors,retail
+CUS-0028,Dubai EV Center,retail
+CUS-0029,Jakarta EV Center,retail
+CUS-0030,Lagos Electric Auto Group,retail
+CUS-0031,Munich Voltra Motors,retail
+CUS-0032,Mumbai Voltra Motors,retail
+CUS-0033,Seattle Electric Auto Group,retail
+CUS-0034,Austin Voltra Motors,retail
+CUS-0035,Mexico City Voltra Motors,retail
+CUS-0036,Osaka Voltra Motors,retail
+CUS-0037,Cairo EV Center,retail
+CUS-0038,Bengaluru Electric Auto Group,retail
+CUS-0039,Auckland Electric Auto Group,retail
+CUS-0040,Guadalajara EV Center,retail
+CUS-0041,Brussels Electric Auto Group,retail
+CUS-0042,Vancouver Voltra Motors,retail
+CUS-0043,Bangkok Voltra Motors,retail
+CUS-0044,Santiago Electric Auto Group,retail
+CUS-0045,Sao Paulo Voltra Motors,retail
+CUS-0046,Barcelona Voltra Motors,retail
+CUS-0047,Oslo EV Center,retail
+CUS-0048,Johannesburg Voltra Motors,retail
+CUS-0049,Phoenix Voltra Motors,retail
+CUS-0050,Warsaw Electric Auto Group,retail
+CUS-0051,Dublin Electric Auto Group,retail
+CUS-0052,Denver EV Center,retail
+CUS-0053,Boston Electric Auto Group,retail
+CUS-0054,Lisbon EV Center,retail
+CUS-0055,Bogota Voltra Motors,retail
+CUS-0056,Melbourne EV Center,retail
+CUS-0057,Hamburg EV Center,retail
+CUS-0058,Manchester EV Center,retail
+CUS-0059,Nairobi EV Center,retail
+CUS-0060,Madrid EV Center,retail
+CUS-0061,Chicago EV Center,retail
+CUS-0062,Paris Electric Auto Group,retail
+CUS-0063,Tokyo EV Center,retail
+CUS-0064,Manila EV Center,retail
+CUS-0065,Istanbul Electric Auto Group,retail
+CUS-0066,Seoul Voltra Motors,retail
+CUS-0067,Vienna Electric Auto Group II,retail
+CUS-0068,Amsterdam EV Center Holdings,retail
+CUS-0069,Kuala Lumpur Electric Auto Group International,retail
+CUS-0070,Rome Voltra Motors II,retail
+CUS-0071,Copenhagen Corporate Mobility,fleet
+CUS-0072,Istanbul Corporate Mobility,fleet
+CUS-0073,Miami Corporate Mobility,fleet
+CUS-0074,Lisbon Corporate Mobility,fleet
+CUS-0075,Nairobi Fleet Leasing,fleet
+CUS-0076,Bangkok Corporate Mobility,fleet
+CUS-0077,Montreal Corporate Mobility,fleet
+CUS-0078,Oslo Corporate Mobility,fleet
+CUS-0079,Tel Aviv Fleet Leasing,fleet
+CUS-0080,Zurich Corporate Mobility,fleet
+CUS-0081,Cairo Corporate Mobility,fleet
+CUS-0082,Helsinki Fleet Leasing,fleet
+CUS-0083,Osaka Corporate Mobility,fleet
+CUS-0084,Dubai Corporate Mobility,fleet
+CUS-0085,Toronto Fleet Leasing,fleet
+CUS-0086,Sao Paulo Corporate Mobility,fleet
+CUS-0087,Seattle Corporate Mobility,fleet
+CUS-0088,Amsterdam Fleet Leasing,fleet
+CUS-0089,Mumbai Fleet Leasing,fleet
+CUS-0090,Paris Corporate Mobility,fleet
+CUS-0091,Stockholm Corporate Mobility,fleet
+CUS-0092,Munich Corporate Mobility,fleet
+CUS-0093,Phoenix Fleet Leasing,fleet
+CUS-0094,Brussels Corporate Mobility,fleet
+CUS-0095,Ho Chi Minh City Fleet Leasing,fleet
+CUS-0096,Milan Fleet Leasing,fleet
+CUS-0097,Riyadh Fleet Leasing,fleet
+CUS-0098,Singapore Corporate Mobility,fleet
+CUS-0099,Bengaluru Corporate Mobility,fleet
+CUS-0100,Denver Corporate Mobility,fleet
+CUS-0101,Madrid Fleet Leasing,fleet
+CUS-0102,Auckland Corporate Mobility,fleet
+CUS-0103,Jakarta Corporate Mobility,fleet
+CUS-0104,Hamburg Fleet Leasing,fleet
+CUS-0105,Vienna Corporate Mobility,fleet
+CUS-0106,Melbourne Corporate Mobility,fleet
+CUS-0107,Barcelona Fleet Leasing,fleet
+CUS-0108,Chicago Fleet Leasing,fleet
+CUS-0109,Guadalajara Fleet Leasing,fleet
+CUS-0110,Delhi Fleet Leasing,fleet
+CUS-0111,Austin Energy Services,energy
+CUS-0112,Vancouver Energy Services,energy
+CUS-0113,Guadalajara Solar & Storage,energy
+CUS-0114,Monterrey Energy Services,energy
+CUS-0115,Hamburg Charging Networks,energy
+CUS-0116,Manchester Solar & Storage,energy
+CUS-0117,Seattle Energy Services,energy
+CUS-0118,Helsinki Charging Networks,energy
+CUS-0119,San Diego Energy Services,energy
+CUS-0120,Jakarta Charging Networks,energy
+CUS-0121,Singapore Solar & Storage,energy
+CUS-0122,Bengaluru Energy Services,energy
+CUS-0123,Madrid Energy Services,energy
+CUS-0124,Oslo Charging Networks,energy
+CUS-0125,Detroit Energy Services,energy
+CUS-0126,Cairo Solar & Storage,energy
+CUS-0127,Milan Charging Networks,energy
+CUS-0128,Sydney Charging Networks,energy
+CUS-0129,Berlin Solar & Storage,energy
+CUS-0130,Phoenix Charging Networks,energy
+CUS-0131,Lagos Energy Services,energy
+CUS-0132,Osaka Solar & Storage,energy
+CUS-0133,Tel Aviv Charging Networks,energy
+CUS-0134,Ho Chi Minh City Solar & Storage,energy
+CUS-0135,Lisbon Energy Services,energy
+CUS-0136,Delhi Charging Networks,energy
+CUS-0137,Zurich Solar & Storage,energy
+CUS-0138,Brussels Solar & Storage,energy
+CUS-0139,Dublin Charging Networks,energy
+CUS-0140,Dubai Solar & Storage,energy
+CUS-0141,Atlanta Solar & Storage,energy
+CUS-0142,Bangkok Energy Services,energy
+CUS-0143,Miami Energy Services,energy
+CUS-0144,Mexico City Energy Services,energy
+CUS-0145,Sao Paulo Energy Services,energy
+CUS-0146,Mumbai Service Partners,aftermarket
+CUS-0147,Seoul Service Partners,aftermarket
+CUS-0148,Barcelona EV Parts Distribution,aftermarket
+CUS-0149,Hamburg EV Parts Distribution,aftermarket
+CUS-0150,Atlanta Service Partners,aftermarket
+CUS-0151,Brussels EV Parts Distribution,aftermarket
+CUS-0152,Jakarta EV Parts Distribution,aftermarket
+CUS-0153,San Diego EV Parts Distribution,aftermarket
+CUS-0154,Mexico City EV Parts Distribution,aftermarket
+CUS-0155,Delhi Service Partners,aftermarket
+CUS-0156,Tel Aviv Service Partners,aftermarket
+CUS-0157,Copenhagen EV Parts Distribution,aftermarket
+CUS-0158,Bangkok EV Parts Distribution,aftermarket
+CUS-0159,Stockholm Service Partners,aftermarket
+CUS-0160,London EV Parts Distribution,aftermarket
+CUS-0161,Osaka EV Parts Distribution,aftermarket
+CUS-0162,Cairo Service Partners,aftermarket
+CUS-0163,Munich Service Partners,aftermarket
+CUS-0164,Monterrey EV Parts Distribution,aftermarket
+CUS-0165,Madrid EV Parts Distribution,aftermarket
+CUS-0166,Helsinki Service Partners,aftermarket
+CUS-0167,Bogota EV Parts Distribution,aftermarket
+CUS-0168,Singapore Service Partners,aftermarket
+CUS-0169,Oslo Service Partners,aftermarket
+CUS-0170,Johannesburg Service Partners,aftermarket
+CUS-0171,Cairo Micromobility,micromobility
+CUS-0172,Zurich Scooter Share,micromobility
+CUS-0173,Toronto Scooter Share,micromobility
+CUS-0174,Mumbai Scooter Share,micromobility
+CUS-0175,Austin Micromobility,micromobility
+CUS-0176,Warsaw Scooter Share,micromobility
+CUS-0177,Manchester Scooter Share,micromobility
+CUS-0178,Berlin Micromobility,micromobility
+CUS-0179,Jakarta Scooter Share,micromobility
+CUS-0180,Barcelona Scooter Share,micromobility
+CUS-0181,Lagos Scooter Share,micromobility
+CUS-0182,Phoenix Scooter Share,micromobility
+CUS-0183,Vienna Micromobility,micromobility
+CUS-0184,Amsterdam Micromobility,micromobility
+CUS-0185,Seoul Micromobility,micromobility
+CUS-0186,Toronto Last-Mile Logistics,logistics
+CUS-0187,Oslo Freight Partners,logistics
+CUS-0188,Seattle Freight Partners,logistics
+CUS-0189,Bengaluru Last-Mile Logistics,logistics
+CUS-0190,Dublin Last-Mile Logistics,logistics
+CUS-0191,Tokyo Freight Partners,logistics
+CUS-0192,Phoenix Freight Partners,logistics
+CUS-0193,Johannesburg Freight Partners,logistics
+CUS-0194,Guadalajara Freight Partners,logistics
+CUS-0195,Sao Paulo Last-Mile Logistics,logistics
+CUS-0196,Barcelona Freight Partners,logistics
+CUS-0197,London Last-Mile Logistics,logistics
+CUS-0198,Mumbai Last-Mile Logistics,logistics
+CUS-0199,Mexico City Last-Mile Logistics,logistics
+CUS-0200,Jakarta Freight Partners,logistics

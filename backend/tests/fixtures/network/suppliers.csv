@@ -1,0 +1,43 @@
+supplier_id,supplier_name,location_id,risk_score
+SUP-001,Helios Cell Technologies,REG-KR-GB,0.2
+SUP-002,Yangtze Energy Storage,REG-CN-JS,0.35
+SUP-003,Andes Lithium Corp,REG-CL-AN,0.3
+SUP-004,Pilbara Hydroxide,REG-AU-WA,0.15
+SUP-005,Katanga Cobalt Refining,REG-CD-KAT,0.7
+SUP-006,Sulawesi Nickel Processing,REG-ID-SUL,0.4
+SUP-007,Nordic Battery Metals,REG-FI-OST,0.1
+SUP-008,Gyeong Cathode Materials,REG-KR-GB,0.2
+SUP-009,Jiangsu Cathode Works,REG-CN-JS,0.35
+SUP-010,Steppe Graphite Mining,REG-CN-IM,0.55
+SUP-011,Kyushu Membrane Co.,REG-JP-KYU,0.1
+SUP-012,Pearl River Electrolyte,REG-CN-GD,0.3
+SUP-013,Kanmon Fluorochemicals,REG-JP-KYU,0.1
+SUP-014,Kaohsiung Silicon Foundry,REG-TW-S,0.45
+SUP-015,Penang Microcontrollers,REG-MY-PEN,0.25
+SUP-016,Pingtung Wafer Materials,REG-TW-S,0.4
+SUP-017,Bavaria Silicon GmbH,REG-DE-BY,0.1
+SUP-018,Black Sea Industrial Gases,REG-UA-OD,0.8
+SUP-019,Kyushu Specialty Gases,REG-JP-KYU,0.1
+SUP-020,Monterrey Circuit Systems,REG-MX-NL,0.2
+SUP-021,Shenzhen Multilayer PCB,REG-CN-GD,0.3
+SUP-022,Jiangsu Copper Foil,REG-CN-JS,0.3
+SUP-023,Great Lakes Aluminum,REG-US-MI,0.1
+SUP-024,Guangdong Light Alloys,REG-CN-GD,0.3
+SUP-025,Steppe Rare Earth Refining,REG-CN-IM,0.6
+SUP-026,Mojave Rare Earths,REG-US-CA,0.15
+SUP-027,Ningbo Magnetics,REG-CN-ZJ,0.45
+SUP-028,Texas Motor Works,REG-US-TX,0.1
+SUP-029,Saxony Power Electronics,REG-DE-SN,0.15
+SUP-030,Lone Star SiC,REG-US-TX,0.15
+SUP-031,Hsinchu SiC Devices,REG-TW-N,0.35
+SUP-032,Carolina SiC Substrates,REG-US-NC,0.15
+SUP-033,Nakdong Display,REG-KR-GB,0.2
+SUP-034,Wolverine Body Systems,REG-US-MI,0.1
+SUP-035,Ohio Valley Steel,REG-US-OH,0.1
+SUP-036,Rayong Tire Co.,REG-TH-E,0.25
+SUP-037,Monterrey Tire,REG-MX-NL,0.2
+SUP-038,Chanthaburi Rubber Estates,REG-TH-E,0.3
+SUP-039,Detroit Pack Assembly,REG-US-MI,0.1
+SUP-040,Bajio Electronics,REG-MX-GTO,0.2
+SUP-041,Pearl River Polymers,REG-CN-GD,0.3
+SUP-042,Atacama Copper Wire,REG-CL-AN,0.25

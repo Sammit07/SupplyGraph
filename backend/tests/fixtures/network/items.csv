@@ -1,0 +1,41 @@
+item_id,item_name,item_type,category,days_on_hand
+PRT-PACK,75 kWh Battery Pack Assembly,COMPONENT,assembly,5
+PRT-MOD,Battery Module,COMPONENT,assembly,7
+PRT-CELL,NMC811 Pouch Cell,COMPONENT,cell,14
+PRT-CATH,NMC811 Cathode Active Material,COMPONENT,material,20
+PRT-LIOH,Battery-Grade Lithium Hydroxide,RAW_MATERIAL,raw_material,30
+PRT-COSO4,Cobalt Sulfate,RAW_MATERIAL,raw_material,25
+PRT-NISO4,Nickel Sulfate,RAW_MATERIAL,raw_material,30
+PRT-GRAPH,Spherical Graphite Anode Material,COMPONENT,material,28
+PRT-SEP,Ceramic-Coated Separator Film,COMPONENT,material,21
+PRT-ELEC,Electrolyte Solution,COMPONENT,material,15
+PRT-LIPF6,LiPF6 Lithium Salt,RAW_MATERIAL,raw_material,20
+PRT-BMS,Battery Management System Board,COMPONENT,electronics,10
+PRT-MCU,Automotive 32-bit Microcontroller,COMPONENT,semiconductor,35
+PRT-WAFER,300mm Silicon Wafer,COMPONENT,semiconductor_material,40
+PRT-NEON,Purified Neon Gas,RAW_MATERIAL,raw_material,60
+PRT-PCB,Multilayer Printed Circuit Board,COMPONENT,electronics,12
+PRT-CUFOIL,Electrodeposited Copper Foil,COMPONENT,material,18
+PRT-ENCL,Battery Pack Enclosure,COMPONENT,structural,10
+PRT-ALU,Aluminum Extrusion,COMPONENT,material,15
+PRT-DRIVE,Rear Drive Unit,COMPONENT,assembly,6
+PRT-MOTOR,Permanent-Magnet Traction Motor,COMPONENT,assembly,10
+PRT-MAGNET,NdFeB Magnet Set,COMPONENT,material,30
+PRT-REO,Rare-Earth Oxides (Nd/Pr),RAW_MATERIAL,raw_material,45
+PRT-CUWIRE,Copper Magnet Wire,COMPONENT,material,20
+PRT-INV,Traction Inverter,COMPONENT,electronics,8
+PRT-SIC,SiC Power MOSFET,COMPONENT,semiconductor,25
+PRT-SICWAF,150mm SiC Substrate,COMPONENT,semiconductor_material,30
+PRT-INFOMOD,Infotainment Module,COMPONENT,electronics,9
+PRT-SOC,Infotainment SoC (7nm),COMPONENT,semiconductor,30
+PRT-DISP,15-inch OLED Display,COMPONENT,electronics,14
+PRT-BIW,Body-in-White,COMPONENT,structural,3
+PRT-STEEL,Advanced High-Strength Steel Coil,COMPONENT,material,10
+PRT-TIRE,19-inch EV Tire,COMPONENT,component,12
+PRT-RUBBER,Natural Rubber,RAW_MATERIAL,raw_material,25
+PRT-CHGPB,Charger Power Board,COMPONENT,electronics,12
+PRT-POLY,Flame-Retardant Polycarbonate,COMPONENT,material,20
+PRD-EVX,Voltra EVX Sedan,FINISHED_GOOD,finished_good,
+PRD-PACK75,75 kWh Service Battery Pack,FINISHED_GOOD,finished_good,
+PRD-HUB,Voltra Home Charging Hub,FINISHED_GOOD,finished_good,
+PRD-INFO,Infotainment Upgrade Kit,FINISHED_GOOD,finished_good,

@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Secrets
+.env
+.env.local
+.env*.local
+backend/.env
+
+# Vercel
+.vercel
+
+# written by `next dev` when an AI agent starts it
+frontend/AGENTS.md
+frontend/CLAUDE.md

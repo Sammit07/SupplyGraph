@@ -1,0 +1,213 @@
+item_id,item_name,item_type,category,days_on_hand
+PRT-PACK,75 kWh Battery Pack Assembly,COMPONENT,assembly,5
+PRT-MOD,Battery Module,COMPONENT,assembly,7
+PRT-CELL,NMC811 Pouch Cell,COMPONENT,cell,14
+PRT-CATH,NMC811 Cathode Active Material,COMPONENT,material,20
+PRT-LIOH,Battery-Grade Lithium Hydroxide,RAW_MATERIAL,raw_material,30
+PRT-COSO4,Cobalt Sulfate,RAW_MATERIAL,raw_material,25
+PRT-NISO4,Nickel Sulfate,RAW_MATERIAL,raw_material,30
+PRT-GRAPH,Spherical Graphite Anode Material,COMPONENT,material,28
+PRT-SEP,Ceramic-Coated Separator Film,COMPONENT,material,21
+PRT-ELEC,Electrolyte Solution,COMPONENT,material,15
+PRT-LIPF6,LiPF6 Lithium Salt,RAW_MATERIAL,raw_material,20
+PRT-BMS,Battery Management System Board,COMPONENT,electronics,10
+PRT-MCU,Automotive 32-bit Microcontroller,COMPONENT,semiconductor,35
+PRT-WAFER,300mm Silicon Wafer,COMPONENT,semiconductor_material,40
+PRT-NEON,Purified Neon Gas,RAW_MATERIAL,raw_material,60
+PRT-PCB,Multilayer Printed Circuit Board,COMPONENT,electronics,12
+PRT-CUFOIL,Electrodeposited Copper Foil,COMPONENT,material,18
+PRT-ENCL,Battery Pack Enclosure,COMPONENT,structural,10
+PRT-ALU,Aluminum Extrusion,COMPONENT,material,15
+PRT-DRIVE,Rear Drive Unit,COMPONENT,assembly,6
+PRT-MOTOR,Permanent-Magnet Traction Motor,COMPONENT,assembly,10
+PRT-MAGNET,NdFeB Magnet Set,COMPONENT,material,30
+PRT-REO,Rare-Earth Oxides (Nd/Pr),RAW_MATERIAL,raw_material,45
+PRT-CUWIRE,Copper Magnet Wire,COMPONENT,material,20
+PRT-INV,Traction Inverter,COMPONENT,electronics,8
+PRT-SIC,SiC Power MOSFET,COMPONENT,semiconductor,25
+PRT-SICWAF,150mm SiC Substrate,COMPONENT,semiconductor_material,30
+PRT-INFOMOD,Infotainment Module,COMPONENT,electronics,9
+PRT-SOC,Infotainment SoC (7nm),COMPONENT,semiconductor,30
+PRT-DISP,15-inch OLED Display,COMPONENT,electronics,14
+PRT-BIW,Body-in-White,COMPONENT,structural,3
+PRT-STEEL,Advanced High-Strength Steel Coil,COMPONENT,material,10
+PRT-TIRE,19-inch EV Tire,COMPONENT,component,12
+PRT-RUBBER,Natural Rubber,RAW_MATERIAL,raw_material,25
+PRT-CHGPB,Charger Power Board,COMPONENT,electronics,12
+PRT-POLY,Flame-Retardant Polycarbonate,COMPONENT,material,20
+PRD-EVX,Voltra EVX Sedan,FINISHED_GOOD,finished_good,
+PRD-PACK75,75 kWh Service Battery Pack,FINISHED_GOOD,finished_good,
+PRD-HUB,Voltra Home Charging Hub,FINISHED_GOOD,finished_good,
+PRD-INFO,Infotainment Upgrade Kit,FINISHED_GOOD,finished_good,
+RM-SPOD,Spodumene Concentrate (SC6),RAW_MATERIAL,raw_material,37
+RM-MNSO4,Battery-Grade Manganese Sulfate,RAW_MATERIAL,raw_material,31
+RM-FEPO4,Iron Phosphate Precursor,RAW_MATERIAL,raw_material,39
+RM-NEEDLECOKE,Needle Coke,RAW_MATERIAL,raw_material,25
+RM-SILANODE,Silicon Anode Additive,RAW_MATERIAL,raw_material,20
+RM-PVDF,PVDF Binder,RAW_MATERIAL,raw_material,19
+RM-NMP,NMP Solvent,RAW_MATERIAL,raw_material,20
+RM-CARBONCOND,Conductive Carbon Additive,RAW_MATERIAL,raw_material,18
+RM-ALFOIL,Battery-Grade Aluminum Foil,RAW_MATERIAL,raw_material,24
+RM-CUCATH,Copper Cathode,RAW_MATERIAL,raw_material,10
+RM-CUROD,Copper Wire Rod,RAW_MATERIAL,raw_material,24
+RM-ALINGOT,Primary Aluminum Ingot,RAW_MATERIAL,raw_material,25
+RM-MGALLOY,Magnesium Alloy,RAW_MATERIAL,raw_material,12
+RM-HRC,Hot-Rolled Steel Coil,RAW_MATERIAL,raw_material,22
+RM-ESTEEL,Non-Oriented Electrical Steel,RAW_MATERIAL,raw_material,24
+RM-SSTEEL,Stainless Steel Sheet,RAW_MATERIAL,raw_material,30
+RM-PP,Polypropylene Resin,RAW_MATERIAL,raw_material,30
+RM-ABS,ABS Resin,RAW_MATERIAL,raw_material,13
+RM-PA66,Polyamide 66 Resin,RAW_MATERIAL,raw_material,26
+RM-GLASSFIBER,Glass Fiber Roving,RAW_MATERIAL,raw_material,16
+RM-SBR,Styrene-Butadiene Rubber,RAW_MATERIAL,raw_material,16
+RM-CARBONBLACK,Carbon Black,RAW_MATERIAL,raw_material,37
+RM-TIRECORD,Steel Tire Cord,RAW_MATERIAL,raw_material,18
+RM-SILICASAND,High-Purity Silica Sand,RAW_MATERIAL,raw_material,46
+RM-SODAASH,Soda Ash,RAW_MATERIAL,raw_material,40
+RM-GALLIUM,High-Purity Gallium,RAW_MATERIAL,raw_material,49
+RM-HELIUM,Semiconductor-Grade Helium,RAW_MATERIAL,raw_material,25
+RM-PHOTORESIST,Photoresist,RAW_MATERIAL,raw_material,17
+RM-EPOXY,Epoxy Molding Compound,RAW_MATERIAL,raw_material,27
+RM-LEATHER,Finished Leather Hides,RAW_MATERIAL,raw_material,10
+RM-PUFOAM,Polyurethane Foam System,RAW_MATERIAL,raw_material,20
+RM-PAINTRESIN,Paint Resins and Pigments,RAW_MATERIAL,raw_material,22
+RM-ADHESIVE,Epoxy Adhesive Base,RAW_MATERIAL,raw_material,29
+MAT-LI2CO3,Battery-Grade Lithium Carbonate,COMPONENT,refined_material,38
+MAT-SYNGRAPH,Synthetic Graphite Anode Material,COMPONENT,material,35
+MAT-LFPCATH,LFP Cathode Active Material,COMPONENT,material,28
+CMP-MLCC,MLCC Capacitor Reel,COMPONENT,electronics,23
+CMP-ALCAP,Aluminum Electrolytic Capacitor,COMPONENT,electronics,18
+CMP-FILMCAP,DC-Link Film Capacitor,COMPONENT,electronics,23
+CMP-INDUCTOR,Power Inductor,COMPONENT,electronics,31
+CMP-RESISTOR,Chip Resistor Reel,COMPONENT,electronics,20
+CMP-SHUNT,Current Shunt Resistor,COMPONENT,electronics,12
+CMP-TVS,TVS Protection Diode,COMPONENT,semiconductor,28
+CMP-GATEDRV,Isolated Gate Driver IC,COMPONENT,semiconductor,24
+CMP-PMIC,Power Management IC,COMPONENT,semiconductor,45
+CMP-CANXCVR,CAN-FD Transceiver,COMPONENT,semiconductor,33
+CMP-ETHPHY,Automotive Ethernet PHY,COMPONENT,semiconductor,29
+CMP-DRAM,LPDDR5 DRAM,COMPONENT,semiconductor,22
+CMP-NAND,Automotive NAND Flash,COMPONENT,semiconductor,29
+CMP-IMGSENSOR,Automotive CMOS Image Sensor,COMPONENT,semiconductor,35
+CMP-RADARMMIC,77 GHz Radar MMIC,COMPONENT,semiconductor,26
+CMP-AISOC,ADAS AI Accelerator SoC,COMPONENT,semiconductor,24
+CMP-IGBT,IGBT Power Module,COMPONENT,semiconductor,21
+CMP-LEDCHIP,High-Power LED Chip,COMPONENT,semiconductor,23
+CMP-HALLSENSOR,Hall-Effect Current Sensor,COMPONENT,electronics,28
+CMP-NTC,NTC Temperature Sensor,COMPONENT,electronics,23
+CMP-IMU,6-Axis Inertial Measurement Unit,COMPONENT,electronics,19
+CMP-CONN16,16-Pin Sealed Automotive Connector,COMPONENT,electronics,14
+CMP-B2B,Board-to-Board Connector,COMPONENT,electronics,28
+CMP-HVCONN,High-Voltage Connector,COMPONENT,electronics,30
+CMP-LTEMOD,LTE/5G Modem Module,COMPONENT,electronics,13
+CMP-GNSS,Dual-Band GNSS Module,COMPONENT,electronics,28
+CMP-WIFIBT,Wi-Fi/Bluetooth Module,COMPONENT,electronics,33
+CMP-ESIM,Embedded SIM (eUICC),COMPONENT,semiconductor,32
+CMP-ANTENNA,Multi-Band Antenna Module,COMPONENT,electronics,32
+CMP-LCD10,10-Inch Industrial LCD,COMPONENT,electronics,24
+CMP-PAYTERM,Contactless Payment Terminal,COMPONENT,electronics,27
+CMP-SUBFRAME,Rear Subframe Casting,COMPONENT,metal_component,29
+CMP-GIGACAST,Rear Underbody Gigacasting,COMPONENT,metal_component,29
+CMP-INVHOUSING,Inverter Housing Die-Casting,COMPONENT,metal_component,15
+CMP-FORGEARM,Forged Aluminum Control Arm,COMPONENT,mechanical,9
+CMP-BEARING,Wheel Bearing Hub Unit,COMPONENT,mechanical,5
+CMP-GEARSET,Reduction Gear Set,COMPONENT,mechanical,16
+CMP-HALFSHAFT,Half Shaft Assembly,COMPONENT,mechanical,8
+CMP-SPRING,Coil Spring,COMPONENT,mechanical,8
+CMP-STRUT,Suspension Strut,COMPONENT,mechanical,8
+CMP-BRAKEDISC,Ventilated Brake Disc,COMPONENT,metal_component,25
+CMP-CALIPER,Aluminum Brake Caliper,COMPONENT,mechanical,19
+CMP-FASTENER,Fastener Kit,COMPONENT,metal_component,28
+CMP-LAMSTACK,Motor Lamination Stack,COMPONENT,metal_component,14
+CMP-STATOR,Hairpin Motor Stator,COMPONENT,mechanical,18
+CMP-ROTOR,Permanent-Magnet Rotor,COMPONENT,mechanical,17
+CMP-WHEEL19,19-Inch Cast Aluminum Wheel,COMPONENT,metal_component,23
+CMP-WHEEL20,20-Inch Flow-Formed Wheel,COMPONENT,metal_component,13
+CMP-BUSBAR,Laminated Copper Busbar,COMPONENT,metal_component,15
+CMP-HVCABLE,High-Voltage Cable,COMPONENT,metal_component,19
+CMP-COOLPLATE,Battery Cooling Plate,COMPONENT,metal_component,26
+CMP-CELLCAN,Prismatic Cell Can,COMPONENT,metal_component,14
+CMP-BODYPANEL,Stamped Body Panel Set,COMPONENT,metal_component,22
+CMP-TIMPAD,Thermal Interface Pad,COMPONENT,metal_component,34
+CMP-MICA,Mica Fire Barrier Sheet,COMPONENT,metal_component,40
+CMP-CONTACTOR,High-Voltage Contactor,COMPONENT,metal_component,23
+CMP-PYROFUSE,Pyrotechnic Safety Fuse,COMPONENT,metal_component,26
+CMP-SEAL,EPDM Door Seal Set,COMPONENT,component,22
+CMP-BUMPER,Painted Bumper Fascia,COMPONENT,component,22
+CMP-DASHPANEL,Instrument Panel Carrier,COMPONENT,component,26
+CMP-CARGOFLOOR,Composite Cargo Floor,COMPONENT,component,19
+CMP-SCTIRE,10-Inch Scooter Tire,COMPONENT,component,13
+CMP-TIRE20,20-Inch SUV Tire,COMPONENT,component,25
+CMP-TIREVAN,16-Inch Light-Truck Tire,COMPONENT,component,10
+CMP-WINDSHIELD,Acoustic Laminated Windshield,COMPONENT,interior,8
+CMP-SIDEGLASS,Tempered Side Glass,COMPONENT,interior,7
+CMP-ROOFGLASS,Panoramic Roof Glass,COMPONENT,interior,7
+CMP-SEATFRAME,Seat Frame,COMPONENT,interior,4
+CMP-SEATFOAM,Molded Seat Foam,COMPONENT,interior,11
+CMP-SEATTRIM,Leather Seat Trim,COMPONENT,interior,6
+CMP-HEADLAMP,Matrix LED Headlamp,COMPONENT,interior,6
+CMP-TAILLAMP,LED Tail Lamp,COMPONENT,interior,15
+CMP-AIRBAG,Airbag Module,COMPONENT,interior,6
+CMP-SEATBELT,Seat Belt Assembly,COMPONENT,interior,10
+CMP-STEERWHEEL,Heated Steering Wheel,COMPONENT,interior,7
+CMP-SPEAKER,Premium Speaker Set,COMPONENT,component,35
+CMP-PAINT,Paint System (per vehicle),COMPONENT,component,17
+CMP-ADHESIVE,Structural Adhesive (per body),COMPONENT,component,36
+CMP-CABINFILTER,HEPA Cabin Air Filter,COMPONENT,component,16
+CMP-SCFRAME,Scooter Aluminum Frame,COMPONENT,component,18
+CMP-CABINET,Charger Cabinet Enclosure,COMPONENT,component,27
+CMP-VANBODY,Van Body Panel Set,COMPONENT,component,25
+CMP-COOLPUMP,Electric Coolant Pump,COMPONENT,component,10
+CMP-COMPRESSOR,Heat-Pump Scroll Compressor,COMPONENT,component,15
+CMP-CHILLER,Battery Chiller,COMPONENT,component,10
+CMP-TRANSFORMER,Medium-Frequency Transformer,COMPONENT,component,12
+CMP-HUBMOTOR,Scooter Hub Motor,COMPONENT,component,12
+CELL-LFP,LFP Prismatic Cell,COMPONENT,cell,18
+CELL-21700,21700 Cylindrical Cell,COMPONENT,cell,18
+MOD-LFP,LFP Battery Module,COMPONENT,assembly,7
+SUB-HARNESS,Main Wiring Harness,COMPONENT,assembly,3
+SUB-HVHARNESS,High-Voltage Harness,COMPONENT,assembly,8
+SUB-ADASCAM,ADAS Camera Module,COMPONENT,assembly,11
+SUB-RADAR,Front Radar Module,COMPONENT,assembly,23
+SUB-ADASECU,ADAS Domain Controller,COMPONENT,assembly,18
+SUB-TCU,Telematics Control Unit,COMPONENT,assembly,29
+SUB-GATEWAY,Central Gateway ECU,COMPONENT,assembly,23
+SUB-EPS,Electric Power Steering Rack,COMPONENT,assembly,10
+SUB-BRAKEBOOST,Electronic Brake Booster,COMPONENT,assembly,9
+SUB-ESC,ABS/ESC Hydraulic Unit,COMPONENT,assembly,6
+SUB-SEAT,Front Seat Assembly,COMPONENT,assembly,14
+SUB-HVAC,HVAC and Heat-Pump Module,COMPONENT,assembly,10
+SUB-THERMAL,Battery Thermal Management System,COMPONENT,assembly,11
+SUB-SUSPENSION,Suspension Corner Module,COMPONENT,assembly,12
+SUB-BRAKES,Brake Corner Module,COMPONENT,assembly,5
+SUB-OBC,11 kW On-Board Charger,COMPONENT,assembly,24
+SUB-DCDC,HV-LV DC-DC Converter,COMPONENT,assembly,25
+SUB-CHARGEINLET,CCS2 Charging Inlet,COMPONENT,assembly,24
+SUB-PDU,HV Power Distribution Unit,COMPONENT,assembly,3
+SUB-DOOR,Door Module,COMPONENT,assembly,8
+SUB-LIGHTING,Exterior Lighting Set,COMPONENT,assembly,14
+SUB-INTERIOR,Interior Cockpit Kit,COMPONENT,assembly,12
+SUB-GLAZING,Glazing Set,COMPONENT,assembly,5
+SUB-EDRIVEF,Front Drive Unit,COMPONENT,assembly,9
+SUB-PWRMOD30,30 kW Charger Power Module,COMPONENT,assembly,17
+SUB-LCCABLE,Liquid-Cooled Charging Cable,COMPONENT,assembly,8
+SUB-MPPT,Solar MPPT Board,COMPONENT,assembly,26
+SUB-INVBRIDGE,Grid Inverter Bridge,COMPONENT,assembly,15
+SUB-SCCTRL,Scooter Motor Controller,COMPONENT,assembly,10
+PACK-100,100 kWh Battery Pack Assembly,COMPONENT,assembly,9
+PACK-90,90 kWh SUV Battery Pack Assembly,COMPONENT,assembly,8
+PACK-110,110 kWh LFP Van Battery Pack,COMPONENT,assembly,7
+PACK-HOME,13.5 kWh Home Battery Pack,COMPONENT,assembly,4
+PACK-SCOOTER,1 kWh Scooter Battery Pack,COMPONENT,assembly,17
+PRD-EVXLR,Voltra EVX Long Range,FINISHED_GOOD,finished_good,
+PRD-TERRA,Voltra Terra SUV,FINISHED_GOOD,finished_good,
+PRD-CARGO,Voltra Cargo E-Van,FINISHED_GOOD,finished_good,
+PRD-PULSE,Voltra Pulse E-Scooter,FINISHED_GOOD,finished_good,
+PRD-FAST150,Voltra 150 kW DC Fast Charger,FINISHED_GOOD,finished_good,
+PRD-HOMEWALL,Voltra Home Battery Wall,FINISHED_GOOD,finished_good,
+PRD-SOLARINV,Voltra 10 kW Solar Inverter,FINISHED_GOOD,finished_good,
+PRD-TELEMATICS,Voltra Fleet Telematics Unit,FINISHED_GOOD,finished_good,
+PRD-ADASKIT,ADAS Retrofit Camera Kit,FINISHED_GOOD,finished_good,
+PRD-PACK100,100 kWh Service Battery Pack,FINISHED_GOOD,finished_good,
+PRD-DRIVESVC,Service Rear Drive Unit,FINISHED_GOOD,finished_good,
+PRD-CHGCABLE,Voltra Portable Charging Cable,FINISHED_GOOD,finished_good,
