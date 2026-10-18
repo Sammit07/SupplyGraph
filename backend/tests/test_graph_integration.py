@@ -167,6 +167,19 @@ async def test_memory_round_trip(tools):
     assert "qualify a second" in mem.data["findings"][0]["text"]
 
 
+async def test_recall_follows_affects_one_hop(tools):
+    # A finding about a disruption is recalled when asking about the port it affects.
+    await tools.record_finding(
+        t.RecordFindingIn(entity="DIS-2026-TYPHOON-KHH", text="Typhoon closure: expedite via air.")
+    )
+    mem = await tools.recall_findings(t.RecallFindingsIn(entity="PORT-KHH"))
+    assert mem.outcome == Outcome.FROM_MEMORY
+    hit = next(f for f in mem.data["findings"] if "expedite via air" in f["text"])
+    assert hit["about"]["id"] == "DIS-2026-TYPHOON-KHH"
+    assert "(about Typhoon Haikui" in mem.summary
+    assert "DIS-2026-TYPHOON-KHH" in {e.id for e in mem.entities}
+
+
 async def test_active_disruptions_excludes_inactive(tools):
     r = await tools.active_disruptions(t.ActiveDisruptionsIn())
     ids = {d["id"] for d in r.data["disruptions"]}

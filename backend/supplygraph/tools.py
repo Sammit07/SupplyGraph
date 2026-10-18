@@ -342,9 +342,16 @@ ORDER BY d.severity DESC, d.started_at DESC
 
 
 def q_recall(limit: int) -> str:
+    # Findings about the entity itself, plus one AFFECTS hop: asking about a port also
+    # recalls what was concluded about the strike affecting it, and vice versa.
     return f"""
-MATCH (f:Finding)-[:ABOUT]->(e:Entity {{id: $id}})
-RETURN f.id AS id, f.text AS text, f.created_at AS created_at, f.session_id AS session_id
+MATCH (e:Entity {{id: $id}})
+OPTIONAL MATCH (e)-[:AFFECTS]-(n:Entity)
+WITH e, collect(DISTINCT n) AS near
+UNWIND [e] + near AS s
+MATCH (f:Finding)-[:ABOUT]->(s)
+RETURN f.id AS id, f.text AS text, f.created_at AS created_at, f.session_id AS session_id,
+       {{id: s.id, name: s.name, kind: s.kind}} AS about
 ORDER BY f.created_at DESC
 LIMIT {_bound(limit, 20)}
 """
@@ -1464,15 +1471,23 @@ class SupplyGraphTools:
                 entities=[res.entity],
                 query_ms=rows.elapsed_ms,
             )
+
+        def line(r: dict[str, Any]) -> str:
+            about = r["about"]
+            via = "" if about["id"] == res.entity.id else f" (about {about['name']})"
+            return f"[{r['created_at'][:10]}]{via} {r['text']}"
+
         summary = f"{len(rows)} stored finding(s) about {res.entity.name}: " + " | ".join(
-            f"[{r['created_at'][:10]}] {r['text']}" for r in rows.rows
+            line(r) for r in rows.rows
         )
+        related = {r["about"]["id"]: EntityRef(**r["about"]) for r in rows.rows}
+        related.pop(res.entity.id, None)
         return ToolResult(
             tool=tool,
             outcome=Outcome.FROM_MEMORY,
             summary=summary,
             data={"entity": res.entity.model_dump(), "findings": rows.rows},
-            entities=[res.entity],
+            entities=[res.entity, *related.values()],
             query_ms=rows.elapsed_ms,
             rows=len(rows),
         )

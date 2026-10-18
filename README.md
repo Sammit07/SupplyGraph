@@ -2,7 +2,7 @@
 
 **Supply-chain risk intelligence on a FalkorDB knowledge graph.**
 
-🔗 **Live demo:** [supplygraph-nu.vercel.app](https://supplygraph-nu.vercel.app) (password protected; ask the author for access)
+🔗 **Live demo:** [supplygraph-nu.vercel.app](https://supplygraph-nu.vercel.app) (password protected; for access, contact [sammitraut07@gmail.com](mailto:sammitraut07@gmail.com))
 
 ---
 
@@ -48,7 +48,27 @@ Supply-chain risk usually hides several tiers down. In the sample network an EV 
 
 1. **🗂️ Create a workspace.** Use the workspace switcher in the header to create a new workspace, for example one per business unit or scenario. Each workspace is its own FalkorDB graph (`supplygraph:<name>`), so data never mixes between them. The graph is created on the first import, and the `demo` workspace comes ready with sample data and PDFs.
 2. **📥 Import data.**
-   - **CSV:** upload 9 ERP-style files in the **Data hub**. They are validated (references, BOM cycles, allocations over 100%) and written to FalkorDB. **Merge** updates records by id; **replace** builds a staging graph and swaps it in with `GRAPH.COPY`.
+   - **CSV:** upload ERP-style files in the **Data hub**. They are validated and written to FalkorDB. **Merge** updates records by id; **replace** builds a staging graph and swaps it in with `GRAPH.COPY`. Templates for every file can be downloaded from the Data hub.
+
+     **📋 CSV rules**
+     - **Files are recognised by their header row**, not their file name, and columns can be in any order.
+     - **Format:** UTF-8 or Windows-1252 text. Separators can be comma `,`, semicolon `;`, tab or pipe `|`. Up to 4 MB per upload and 200,000 rows per file.
+     - **Required datasets:** `locations`, `suppliers`, `items`, `bom`, `sourcing`. **Optional:** `shipping_lanes`, `customers`, `sales`, `risk_events`.
+
+       | Dataset | Columns (*optional in italics*) | Rules |
+       |---|---|---|
+       | `locations` | location_id, location_type, name, country_code, *parent_location_id* | `location_type` is `REGION` or `PORT`; a port's `parent_location_id` must be a region; ISO 3166-1 country codes |
+       | `suppliers` | supplier_id, supplier_name, location_id, *risk_score* | `location_id` must be a region; `risk_score` 0–1 |
+       | `items` | item_id, item_name, item_type, *category*, *days_on_hand* | `item_type` is `FINISHED_GOOD`, `COMPONENT` or `RAW_MATERIAL`; `days_on_hand` 0–3650 |
+       | `bom` | parent_item_id, component_item_id, quantity_per | both items must exist; a finished good can't be a component; no cycles in the bill of materials |
+       | `sourcing` | supplier_id, item_id, lead_time_days, allocation_pct, *unit_price*, *currency* | `lead_time_days` 0–730; `allocation_pct` 0–100, and an item's suppliers can't add up to more than 100% |
+       | `shipping_lanes` | supplier_id, port_id | `port_id` must be a `PORT` location |
+       | `customers` | customer_id, customer_name, *segment* | |
+       | `sales` | item_id, customer_id, annual_revenue, *currency* | revenue ≥ 0; only sales of finished goods count towards revenue at risk |
+       | `risk_events` | event_id, title, category, severity, start_date, *expected_end_date*, status, affected_ids | `severity` 1–5; ISO dates (`2026-10-12`), end not before start; `status` is `ACTIVE` or `RESOLVED`; `affected_ids` is a `;`-separated list of region, port or supplier ids |
+
+     - **Integrity checks:** ids are unique, every reference points to an existing record, and currencies match the workspace base currency (USD by default).
+     - **Every problem is reported** with its file, row and column, and nothing is written until the whole upload is valid. Use **Validate** to check files without importing.
    - **PDF:** upload a risk document. The AI reads it, links the names it finds to entities in the graph, and shows you a proposal. Nothing is saved until you approve it. On approval, the disruption is created, and the text is split into passages, embedded and stored in the same graph (GraphRAG).
 3. **📊 Explore.** Dashboards, the network view, the simulator and the risk register call fixed graph queries through the backend REST API.
 4. **💬 Ask the AI analyst.**
@@ -144,7 +164,7 @@ RETURN node.text AS text, doc.filename AS document,
 
 ### 🌐 Live app
 
-🔗 **[https://supplygraph-nu.vercel.app](https://supplygraph-nu.vercel.app)**, hosted on Vercel. The app is password protected; ask the author for access. Pick the `demo` workspace to explore the sample network, PDFs and live disruptions.
+🔗 **[https://supplygraph-nu.vercel.app](https://supplygraph-nu.vercel.app)**, hosted on Vercel. The app is password protected; for access, contact [sammitraut07@gmail.com](mailto:sammitraut07@gmail.com). Pick the `demo` workspace to explore the sample network, PDFs and live disruptions.
 
 ### ✅ Prerequisites
 
